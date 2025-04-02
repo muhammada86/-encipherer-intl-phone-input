@@ -1,10 +1,6 @@
-Below is a detailed `README.md` file for your `@encipherer/intl-phone-input` package. It’s designed to provide an excellent user experience by covering installation, usage, props documentation, examples, and additional information like contributing and license details. The content is structured for clarity, with tables, code snippets, and explanations tailored to developers of varying experience levels.
+# intl-phone-input
 
----
-
-# @encipherer/intl-phone-input
-
-![npm](https://img.shields.io/npm/v/@encipherer/intl-phone-input) ![GitHub license](https://img.shields.io/github/license/muhammada86/intl-phone-input) ![Build Status](https://img.shields.io/github/actions/workflow/status/muhammada86/intl-phone-input/ci.yml)
+![npm](https://img.shields.io/npm/v/intl-phone-input) ![GitHub license](https://img.shields.io/github/license/muhammada86/intl-phone-input) ![Build Status](https://img.shields.io/github/actions/workflow/status/muhammada86/intl-phone-input/ci.yml)
 
 A scalable, performant React Native component for international phone input with country selection, phone number formatting, and TypeScript support. Built with modern React hooks, this package offers a lightweight, customizable solution for mobile applications requiring phone number input with country code selection.
 
@@ -21,7 +17,7 @@ A scalable, performant React Native component for international phone input with
 Install the package via npm:
 
 ```bash
-npm install @encipherer/intl-phone-input
+npm install intl-phone-input
 ```
 
 Ensure you have `react` and `react-native` installed as dependencies in your project:
@@ -36,7 +32,7 @@ Here’s a basic example to get you started:
 
 ```tsx
 import React from "react";
-import { IntlPhoneInput } from "@encipherer/intl-phone-input";
+import { IntlPhoneInput } from "intl-phone-input";
 import { View } from "react-native";
 
 const App = () => {
@@ -117,7 +113,7 @@ Here’s an example with custom styling, a custom modal, and action button:
 
 ```tsx
 import React from "react";
-import { IntlPhoneInput } from "@encipherer/intl-phone-input";
+import { IntlPhoneInput } from "intl-phone-input";
 import { View, Text, TouchableOpacity, Modal } from "react-native";
 
 const App = () => {
@@ -177,11 +173,7 @@ export default App;
 The package is fully typed. Import types as needed:
 
 ```tsx
-import {
-  IntlPhoneInput,
-  PhoneInputState,
-  Country,
-} from "@encipherer/intl-phone-input";
+import { IntlPhoneInput, PhoneInputState, Country } from "intl-phone-input";
 
 const handleChange = (data: PhoneInputState) => {
   const country: Country = data.selectedCountry;
