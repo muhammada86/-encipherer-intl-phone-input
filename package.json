@@ -1,6 +1,6 @@
 {
   "name": "intl-phone-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "types": "src/types/index.ts",
   "description": "A scalable, performant React Native international phone input component with country selection, phone number formatting, and TypeScript support.",
