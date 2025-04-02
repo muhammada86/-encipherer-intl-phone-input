@@ -1,0 +1,57 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flexDirection: "row",
+    paddingHorizontal: 12,
+    padding: 5,
+    borderRadius: 10,
+    alignItems: "center",
+    backgroundColor: "white",
+  },
+  phoneInputStyle: { marginLeft: 5, flex: 1 },
+  openDialogView: { flexDirection: "row", alignItems: "center" },
+  flagStyle: { fontSize: 35 },
+  dialCodeTextStyle: {},
+  modalContainer: {
+    paddingTop: 15,
+    paddingLeft: 25,
+    paddingRight: 25,
+    flex: 10,
+    backgroundColor: "white",
+  },
+  filterInputStyleContainer: {
+    width: "100%",
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  filterInputStyle: {
+    flex: 1,
+    paddingTop: 10,
+    paddingBottom: 10,
+    backgroundColor: "#fff",
+    color: "#424242",
+  },
+  searchIconStyle: { color: "black", fontSize: 15, marginLeft: 15 },
+  countryModalStyle: {
+    flex: 1,
+    borderColor: "black",
+    borderTopWidth: 1,
+    padding: 12,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+  },
+  modalFlagStyle: { fontSize: 25 },
+  modalCountryItemContainer: { flex: 1, paddingLeft: 5, flexDirection: "row" },
+  modalCountryItemCountryNameStyle: { flex: 1, fontSize: 15 },
+  modalCountryItemCountryDialCodeStyle: { fontSize: 15 },
+  closeButtonStyle: { padding: 12, alignItems: "center" },
+  closeTextStyle: {
+    padding: 5,
+    fontSize: 20,
+    color: "black",
+    fontWeight: "bold",
+  },
+});

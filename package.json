@@ -1,0 +1,68 @@
+{
+  "name": "@encipherer/intl-phone-input",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "A scalable, performant React Native international phone input component with country selection, phone number formatting, and TypeScript support.",
+  "scripts": {
+    "build": "tsc && webpack --mode production",
+    "prepublish": "npm run build",
+    "test": "jest",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "keywords": [
+    "react-native",
+    "phone-input",
+    "international",
+    "country-picker",
+    "mobile",
+    "typescript",
+    "hooks",
+    "form",
+    "ui-component",
+    "npm",
+    "open-source",
+    "scalable",
+    "performance"
+  ],
+  "author": {
+    "name": "Muhammad Aqib",
+    "email": "muhammadaqib86@gmail.com",
+    "url": "https://muhammadaqib.vercel.app/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammada86/intl-phone-input.git"
+  },
+  "homepage": "https://github.com/muhammada86/intl-phone-input#readme",
+  "bugs": {
+    "url": "https://github.com/muhammada86/intl-phone-input/issues"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-native": "^0.78.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.8.2",
+    "webpack": "^5.98.0",
+    "@babel/preset-env": "^7.25.8",
+    "@babel/preset-react": "^7.25.7",
+    "@babel/preset-typescript": "^7.25.7",
+    "babel-loader": "^9.2.1",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react": "^7.37.1",
+    "jest": "^29.7.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
