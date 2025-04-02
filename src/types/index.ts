@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 import { TextInput } from "react-native";
 
 export interface Country {
@@ -28,7 +29,7 @@ export interface IntlPhoneInputProps {
     visible: boolean,
     countries: Country[],
     onSelect: (code: string) => void
-  ) => JSX.Element;
+  ) => ReactNode;
   containerStyle?: object;
   flagStyle?: object;
   phoneInputStyle?: object;
@@ -45,5 +46,5 @@ export interface IntlPhoneInputProps {
   disableCountryChange?: boolean;
   inputRef?: React.RefObject<TextInput>;
   placeholderTextColor?: string;
-  renderAction?: () => JSX.Element;
+  renderAction?: () => ReactNode;
 }
